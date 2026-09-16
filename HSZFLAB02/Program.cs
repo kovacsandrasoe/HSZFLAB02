@@ -39,6 +39,8 @@
             movieManager.MoviesAfter2000();
             Console.WriteLine();
             movieManager.SearchMovie();
+            Console.WriteLine();
+            movieManager.ShortMovie();
 
             Console.ReadLine();
             Menu();

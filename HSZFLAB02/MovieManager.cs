@@ -47,6 +47,13 @@ namespace HSZFLAB02
             }
         }
 
+        public void ShortMovie()
+        {
+            Console.WriteLine("1 óránál rövidebb film: ");
+            var q = Movies.Any(m => m.Duration < 60);
+            Console.WriteLine(q);
+        }
+
         public void Load()
         {
            if (File.Exists("movies.json"))
