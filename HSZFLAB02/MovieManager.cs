@@ -33,6 +33,20 @@ namespace HSZFLAB02
             }
         }
 
+        public void SearchMovie()
+        {
+            Console.WriteLine("2000 után jelent meg és 2 órás");
+            var q = Movies.FirstOrDefault(m => m.Year > 2000 && m.Duration >= 120);
+            if (q == null)
+            {
+                Console.WriteLine("Nincs ilyen film");
+            }
+            else
+            {
+                Console.WriteLine(q.Title);
+            }
+        }
+
         public void Load()
         {
            if (File.Exists("movies.json"))
