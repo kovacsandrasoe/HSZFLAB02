@@ -9,6 +9,7 @@ namespace HSZFLAB02
 {
     public class MovieManager
     {
+        public event EventHandler<string> DisplayChanged;
         //publikusságot átírni később
         public List<Movie> Movies { get; set; } = new List<Movie>();
 
@@ -25,11 +26,11 @@ namespace HSZFLAB02
 
         public void MoviesAfter2000()
         {
-            Console.WriteLine("2000 utáni filmek címe: ");
+            DisplayChanged?.Invoke(this, "2000 utáni filmek címe: ");
             var q = Movies.Where(m => m.Year > 2000);
             foreach (var m in q)
             {
-                Console.WriteLine(m.Title);
+                DisplayChanged?.Invoke(null, m.Title);
             }
         }
 

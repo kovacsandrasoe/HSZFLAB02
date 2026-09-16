@@ -36,8 +36,13 @@
 
             Console.WriteLine();
 
+            movieManager.DisplayChanged += (s,d) => Console.WriteLine(d);
             movieManager.MoviesAfter2000();
             Console.WriteLine();
+
+
+
+
             movieManager.SearchMovie();
             Console.WriteLine();
             movieManager.ShortMovie();
