@@ -15,12 +15,28 @@
             string? choice = Console.ReadLine();
             if (choice == "1")
             {
-                
+                Add();
             }
             else if (choice == "2")
             {
-                
+                List();
             }
+        }
+
+        static void List()
+        {
+            Console.Clear();
+            Console.WriteLine("LIST MENU");
+            Console.ReadLine();
+            Menu();
+        }
+
+        static void Add()
+        {
+            Console.Clear();
+            Console.WriteLine("ADD MENU");
+            Console.ReadLine();
+            Menu();
         }
     }
 }
