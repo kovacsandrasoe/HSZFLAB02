@@ -54,6 +54,13 @@ namespace HSZFLAB02
             Console.WriteLine(q);
         }
 
+        public void LongMovie()
+        {
+            Console.WriteLine("Minden film hosszabb-e mint fél óra: ");
+            var q = Movies.All(m => m.Duration > 30);
+            Console.WriteLine(q);
+        }
+
         public void Load()
         {
            if (File.Exists("movies.json"))
