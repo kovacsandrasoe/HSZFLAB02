@@ -1,0 +1,152 @@
+[
+  {
+    "Title": "Harry Potter I.",
+    "Duration": 187,
+    "Year": 2001
+  },
+  {
+    "Title": "Star Wars",
+    "Duration": 165,
+    "Year": 1977
+  },
+  {
+    "Title": "The Shawshank Redemption",
+    "Duration": 142,
+    "Year": 1994
+  },
+  {
+    "Title": "The Godfather",
+    "Duration": 175,
+    "Year": 1972
+  },
+  {
+    "Title": "The Dark Knight",
+    "Duration": 152,
+    "Year": 2008
+  },
+  {
+    "Title": "Pulp Fiction",
+    "Duration": 154,
+    "Year": 1994
+  },
+  {
+    "Title": "The Lord of the Rings: The Fellowship of the Ring",
+    "Duration": 178,
+    "Year": 2001
+  },
+  {
+    "Title": "The Lord of the Rings: The Two Towers",
+    "Duration": 179,
+    "Year": 2002
+  },
+  {
+    "Title": "The Lord of the Rings: The Return of the King",
+    "Duration": 201,
+    "Year": 2003
+  },
+  {
+    "Title": "Forrest Gump",
+    "Duration": 142,
+    "Year": 1994
+  },
+  {
+    "Title": "Inception",
+    "Duration": 148,
+    "Year": 2010
+  },
+  {
+    "Title": "Fight Club",
+    "Duration": 139,
+    "Year": 1999
+  },
+  {
+    "Title": "The Matrix",
+    "Duration": 136,
+    "Year": 1999
+  },
+  {
+    "Title": "Goodfellas",
+    "Duration": 146,
+    "Year": 1990
+  },
+  {
+    "Title": "The Silence of the Lambs",
+    "Duration": 118,
+    "Year": 1991
+  },
+  {
+    "Title": "Se7en",
+    "Duration": 127,
+    "Year": 1995
+  },
+  {
+    "Title": "Interstellar",
+    "Duration": 169,
+    "Year": 2014
+  },
+  {
+    "Title": "The Green Mile",
+    "Duration": 189,
+    "Year": 1999
+  },
+  {
+    "Title": "Gladiator",
+    "Duration": 155,
+    "Year": 2000
+  },
+  {
+    "Title": "The Prestige",
+    "Duration": 130,
+    "Year": 2006
+  },
+  {
+    "Title": "The Lion King",
+    "Duration": 88,
+    "Year": 1994
+  },
+  {
+    "Title": "Back to the Future",
+    "Duration": 116,
+    "Year": 1985
+  },
+  {
+    "Title": "Terminator 2: Judgment Day",
+    "Duration": 137,
+    "Year": 1991
+  },
+  {
+    "Title": "Alien",
+    "Duration": 116,
+    "Year": 1979
+  },
+  {
+    "Title": "The Departed",
+    "Duration": 151,
+    "Year": 2006
+  },
+  {
+    "Title": "Whiplash",
+    "Duration": 106,
+    "Year": 2014
+  },
+  {
+    "Title": "The Social Network",
+    "Duration": 120,
+    "Year": 2010
+  },
+  {
+    "Title": "Parasite",
+    "Duration": 132,
+    "Year": 2019
+  },
+  {
+    "Title": "Spirited Away",
+    "Duration": 125,
+    "Year": 2001
+  },
+  {
+    "Title": "City of God",
+    "Duration": 130,
+    "Year": 2002
+  }
+]

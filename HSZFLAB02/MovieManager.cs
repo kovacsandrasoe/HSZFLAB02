@@ -23,6 +23,16 @@ namespace HSZFLAB02
             Save();
         }
 
+        public void MoviesAfter2000()
+        {
+            Console.WriteLine("2000 utáni filmek címe: ");
+            var q = Movies.Where(t => t.Year > 2000);
+            foreach (var m in q)
+            {
+                Console.WriteLine(m.Title);
+            }
+        }
+
         public void Load()
         {
            if (File.Exists("movies.json"))
