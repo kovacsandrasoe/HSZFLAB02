@@ -34,6 +34,8 @@
                 Console.WriteLine($"Title: {m.Title}, Duration: {m.Duration}, Year: {m.Year}");
             }
 
+            Console.WriteLine();
+
             movieManager.MoviesAfter2000();
 
             Console.ReadLine();
