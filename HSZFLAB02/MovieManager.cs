@@ -9,7 +9,7 @@ namespace HSZFLAB02
     public class MovieManager
     {
         //publikusságot átírni később
-        List<Movie> Movies { get; set; } = new List<Movie>();
+        public List<Movie> Movies { get; set; } = new List<Movie>();
 
         public void Add(Movie m)
         {
