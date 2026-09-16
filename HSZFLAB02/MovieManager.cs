@@ -61,6 +61,16 @@ namespace HSZFLAB02
             Console.WriteLine(q);
         }
 
+        public void SortByDuration()
+        {
+            Console.WriteLine("Hossz szerint növekvő sorrend: ");
+            var q = Movies.OrderBy(m => m.Duration);
+            foreach(var m in q)
+            {
+                Console.WriteLine(m.Title);
+            }
+        }
+
         public void Load()
         {
            if (File.Exists("movies.json"))
